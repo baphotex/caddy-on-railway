@@ -5,5 +5,5 @@ file_server
 
 handle /well-known/* {
         file_server {
-            root * /site
+            root * /srv
         }
