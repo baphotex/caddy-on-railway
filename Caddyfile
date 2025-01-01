@@ -2,8 +2,3 @@
 
 root * /srv
 file_server
-
-handle /well-known/* {
-        file_server {
-            root * /srv
-        }
